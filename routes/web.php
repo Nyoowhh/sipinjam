@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BukuController;
+use App\Http\Controllers\AlatController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,4 @@ Route::get('/coba', function () {
 });
 
 Route::resource('buku', BukuController::class);
+Route::resource('alat', AlatController::class);
