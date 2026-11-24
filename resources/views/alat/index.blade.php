@@ -1,8 +1,8 @@
 @extends('layouts.app')
-@section('judul', 'Daftar Alat')
+@section('judul', 'Daftar Alat (ver2)')
 
 @section('konten')
-  <a href='{{ route('alat.create') }}'>+ Tambah Alat</a>
+  <a href='{{ route('alat.create') }}'>+ Tambah Alat Baru</a>
 
   @if (session('sukses'))
     <p style='color:green'>{{ session('sukses') }}</p>
